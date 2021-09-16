@@ -24,7 +24,22 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+An API that handles incoming requests of ecommerce activities.
+
+Current activities handled are:
+
+- Adding a single product
+- Fetching a single and all products available
+- Updating the details of a product
+
+Future activities to include:
+
+- Adding multiple products at a time
+- Updating multiple products at a time
+- Deleting a single product
+- Deleting multiple products
+- adding a balance checkout
+- sending a confirmation purchase receipt
 
 ## Installation
 
@@ -62,12 +77,6 @@ $ npm run test:cov
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
 
-## Stay in touch
+## Inspired by
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+[Academind](https://www.youtube.com/watch?v=F_oOtaxb0L8&t=1035s)
