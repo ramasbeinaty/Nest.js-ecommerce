@@ -23,8 +23,8 @@ Future activities to include:
 - Updating multiple products at a time
 - Deleting a single product
 - Deleting multiple products
-- adding a balance checkout
-- sending a confirmation purchase receipt
+- Adding a balance checkout
+- Sending a confirmation purchase receipt
 
 ## Installation
 
