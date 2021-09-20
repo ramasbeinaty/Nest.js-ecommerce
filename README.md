@@ -16,12 +16,12 @@ Current activities handled are:
 - Adding a single product
 - Fetching a single and all products available
 - Updating the details of a product
+- Deleting a single product
 
 Future activities to include:
 
 - Adding multiple products at a time
 - Updating multiple products at a time
-- Deleting a single product
 - Deleting multiple products
 - Adding a balance checkout
 - Sending a confirmation purchase receipt
