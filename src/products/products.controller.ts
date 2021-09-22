@@ -20,12 +20,12 @@ export class ProductsController {
     @Body('price') prodPrice: number,
   ) {
     // note that the func below returns a string and an api should return a json object
-    const generatedId = this.productsService.appendProduct(
+    const status = this.productsService.appendProduct(
       prodTitle,
       prodDesc,
       prodPrice,
     );
-    return { id: generatedId };
+    return status;
   }
 
   @Get()

@@ -5,13 +5,15 @@ import { Product } from './product.model';
 
 @Injectable()
 export class ProductsService {
-  private products: Product[] = [];
+  private products: Product[] = [
+    new Product('1', 'firstProd', 'This is the first product', 62),
+  ];
 
   appendProduct(title: string, desc: string, price: number) {
     const prodId = Math.random().toString();
     const newProduct = new Product(prodId, title, desc, price);
     this.products.push(newProduct);
-    return prodId;
+    return 1;
   }
 
   getProducts() {
